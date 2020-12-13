@@ -12,4 +12,6 @@ I=linsolve(A,B);
 it=(I(3)-I(2));
 [Th, r]=cart2pol(real(it), imag(it));
 Th=rad2deg(Th);
-disp(['i(t)= ', num2str(r), 'cos(10t+', num2str(Th), ')'])
+disp(['i(t)= ', num2str(r), 'cos(10t+', num2str(Th), '°)'])
+
+%Imprime: "i(t)= 0.3347cos(10t+134.8723)"
